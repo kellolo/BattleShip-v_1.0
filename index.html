@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BattleShip by jKotleta v. 0.0.1 Beta</title>
+	<link rel="icon" type="img/png" href="img/fav.png"/>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="title"><h1>Welcome to BattleShip</h1></div>
+			<div class="stats">
+			
+			</div>
+		</div>
+		<div class="gameYard content hidden">
+			<div class="pole">
+				<div class="mapWrap">
+					<div class="map user userMap">
+				
+					</div>
+				</div>
+				<div class="mapWrap">
+					<div class="map pc pcMap">
+				
+					</div>
+				</div>
+				
+				
+				<div class="score">
+
+					<table id="table_pc">
+					<tr>
+						<td colspan="2"class="bold">Вражеские корабли</td>
+					</tr>
+					<tr>
+						<td>Линкор</td>
+						<td id="pc_ship_4"></td>
+					</tr>
+					<tr>
+						<td>Крейсер</td>
+						<td id="pc_ship_3"></td>
+					</tr>
+					<tr>
+						<td>Фрегат</td>
+						<td id="pc_ship_2"></td>
+					</tr>
+					<tr>
+						<td>Каноэ</td>
+						<td id="pc_ship_1"></td>
+					</tr>
+				</table>
+
+				<table id="table_player">
+					<tr>
+						<td colspan="2"class="bold">Мои корабли</td>
+					</tr>
+					<tr>
+						<td>Линкор</td>
+						<td id="player_ship_4"></td>
+					</tr>
+					<tr>
+						<td>Крейсер</td>
+						<td id="player_ship_3"></td>
+					</tr>
+					<tr>
+						<td>Фрегат</td>
+						<td id="player_ship_2"></td>
+					</tr>
+					<tr>
+						<td>Каноэ</td>
+						<td id="player_ship_1"></td>
+					</tr>
+				</table>
+				</div>
+			</div>
+			<div class="footer hidden">
+				
+			</div>
+		</div>
+
+		<div class="startGame content">
+			<div class="hello">
+				<form action="">
+					<h1>Привет!</h1>
+					<input type="text" id="userName">
+					<label for="userName">Как тебя зовут?</label>
+					<button id="startGame">Начать</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script src="script/map.js"></script>
+	<script src="script/app.js"></script>
+</body>
+</html>
